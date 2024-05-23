@@ -50,7 +50,7 @@ div.navbar{
 
 .hero-container .title h1{
     margin-top: 50px;
-    font-size: 10rem;
+    font-size: 8rem;
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
@@ -62,7 +62,9 @@ div.navbar{
     border: none;
     border-radius: 25px;
     background-color: goldenrod;
-    margin-top: 10rem;
+    position: relative;
+    bottom: -150px;
+    /* margin-top: 10rem; */
     display: flex;
     justify-content: center;
     align-items: center;
