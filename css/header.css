@@ -5,18 +5,74 @@ div.navbar{
     float: left;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
+    padding: 50px 75px;
     overflow: hidden;
     position: fixed;
+    color: white;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.8);
 }
 .navbar-right a{
     float: right;
     padding: 10px;
-    color: black;
     text-decoration: none;
-    font-size: 0.5rem;
+    
+    color: white;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.navbar-right a h2{
+    font-size: 1.5rem;
+}
+.navbar-right a h2:active{
+   transform: scale(0.8 );
 }
 /* hero section */
 
-.hero
+.hero-background{
+    background-image: url("../assets/img/1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -5;
+}
+.hero-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 25px;
+}
+
+.hero-container .title h1{
+    margin-top: 50px;
+    font-size: 10rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+}
+.hero-button button{
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    background-color: goldenrod;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px , rgba(0, 0, 0, 0.3) 0px 18px 36px -18px ;
+
+}
+.hero-button button:active{
+box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
