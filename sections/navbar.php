@@ -1,6 +1,6 @@
 <div class="navbar">
     <div class="navbar-left" id="navbar">
-        <h1>Auxili Vital</h1>
+        <a href="#"><h1>Auxili Vital</h1></a>
     </div>
     <div class="navbar-right">
         <a href="#responsabilidad"><h2>Responsabilidad Legal</h2></a>

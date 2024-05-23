@@ -15,7 +15,11 @@ div.navbar{
     float: right;
     padding: 10px;
     text-decoration: none;
-    
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.navbar-left a{
+    text-decoration: none;
     color: white;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
@@ -23,7 +27,10 @@ div.navbar{
     font-size: 1.5rem;
 }
 .navbar-right a h2:active{
-   transform: scale(0.8 );
+    transform: scale(0.8);
+}
+.navbar-left a h1:active{
+    transform: scale(0.9);
 }
 /* hero section */
 
@@ -76,5 +83,5 @@ div.navbar{
 
 }
 .hero-button button:active{
-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }

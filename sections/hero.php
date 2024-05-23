@@ -2,7 +2,7 @@
 include  __DIR__ . "/navbar.php";
 ?>
 <div class="hero-background">
-    <div class="hero-container">
+    <div class="hero-container"> 
         <div class="title">
             <h1>Aprende<br>Primeros Auxilios</h1>
         </div>
