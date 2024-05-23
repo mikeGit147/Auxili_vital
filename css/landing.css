@@ -35,7 +35,7 @@
 }
 .pas-image-container {
     position: relative;
-    width: 500px;
+    max-width: 500px;
     height: auto;
     object-fit: 1/1;
     overflow: hidden;
