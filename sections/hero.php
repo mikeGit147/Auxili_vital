@@ -1,4 +1,13 @@
 <?php
 include  __DIR__ . "/navbar.php";
 ?>
-<h1>Hero section</h1>
+<div class="hero-container">
+    <div class="title">
+        <h1>Aprende Primeros Auxilios</h1>
+    </div>
+    <div class="hero-button">
+        <button class="button-video">
+            <a href="#" target="_blank">Ver Video</a>
+        </button>
+    </div>
+</div>
