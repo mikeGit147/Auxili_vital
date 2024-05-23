@@ -5,5 +5,12 @@
 /* protocols css -- empieza las clases con "pro-"  */
 
 /* responsabilidad css -- empieza las clases con "res-"  */
+.res-bg {
+  background-color: #c39b6a;
+  background: #c39b6a;
+}
 
+.res-accordion-bg {
+  background-image: url();
+}
 /* Hero css -- empieza las clases con "her-"  */
