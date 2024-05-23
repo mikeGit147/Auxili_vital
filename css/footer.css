@@ -1,0 +1,45 @@
+.container-0 {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.grid-container {
+    float: left;
+    margin-bottom: 20px; 
+}
+
+.grid-item-img {
+   float: right;
+}
+
+.grid-container-2 {
+    clear: both;
+    text-align: center; 
+}
+
+
+.grid-item1 {
+    display:block; 
+    margin: 0 10px; 
+}
+
+.grid-item {
+    display:inline-block; 
+    margin: 0 10px; 
+}
+
+.img {
+   
+
+}
+
+body{
+    background-color: burlywood;
+    
+}
+
