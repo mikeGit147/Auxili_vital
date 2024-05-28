@@ -16,6 +16,9 @@
     <?php
     include "./pages/landing.php";
     ?>
+  <footer class="py-3">
+    <p class="text-center text-body-secondary">© 2024 Auxili Vital</p>
+  </footer>
 </body>
 
 </html>
