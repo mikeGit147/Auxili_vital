@@ -10,6 +10,10 @@
         float: right;
         display: block;
     }
+    .hero-container .title h1{
+         font-size: 6rem;
+ 
+    }
 }
 
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
@@ -25,6 +29,9 @@
       display: block;
       text-align: left;
     }
+    .hero-container .title h1{
+         font-size: 4rem;
+    }
 }
 div.navbar{
     width: 100%;
@@ -35,7 +42,7 @@ div.navbar{
     justify-content: space-between;
     padding: 50px 75px;
     overflow: hidden;
-    position: fixed;
+    position: absolute;
     color: white;
     text-shadow: 0px 0px 10px rgba(0,0,0,0.8);
 }
@@ -94,6 +101,7 @@ div.navbar{
     text-transform: uppercase;
     text-align: center;
     text-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+    transition: 1s ease-in-out;
 }
 .hero-button button{
     width: 400px;
