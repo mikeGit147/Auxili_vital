@@ -1,4 +1,4 @@
-<div class="res-bg">
+<div class="res-bg" id="responsabilidad">
     <div class="container-fluid p-5 text-center  h-100">
         <div class="row align-items-center">
             <div class="col-12 col-md-6 d-flex flex-column justify-content-center">

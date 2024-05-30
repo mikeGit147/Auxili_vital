@@ -1,0 +1,158 @@
+.navbar .icon {
+  display: none;
+}
+.hero-container h1 {
+  height: auto;
+  margin-top: 50px;
+  font-size: 8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+  transition: 1s ease-in-out;
+}
+@media screen and (max-width: 1400px) {
+  .hero-container h1 {
+    font-size: 6rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .navbar-right {
+    display: none;
+  }
+  .navbar .icon {
+    float: right;
+    display: block;
+  }
+  .hero-container h1 {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .hero-container h1 {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .hero-container h1 {
+    font-size: 2rem;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .navbar-right.responsive {
+    position: relative;
+  }
+  .navbar-right.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar-right.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .hero-container h1 {
+    font-size: 2rem;
+  }
+}
+div.navbar {
+  width: 100%;
+  height: auto;
+  display: flex;
+  float: left;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 75px;
+  overflow: hidden;
+  position: absolute;
+  color: white;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+}
+.navbar-right a {
+  float: right;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.navbar-left a {
+  position: absolute;
+  text-decoration: none;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.navbar-right a h2 {
+  font-size: 1.5rem;
+}
+.navbar-right a h2:active {
+  transform: scale(0.8);
+}
+.navbar-left a h1:active {
+  transform: scale(0.9);
+}
+*/ .nav-link:hover {
+  text-shadow: 0px 0px 3px rgba(255, 255, 255, 0.8) !important;
+}
+body nav div header button {
+  color: white !important;
+  accent-color: white !important;
+}
+button#togglebtn {
+  border: 1px solid #9fa2a4 !important;
+}
+button#togglebtn .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  color: white !important;
+  accent-color: white !important;
+}
+/* hero section */
+
+.hero-background {
+  background-image: url("../assets/img/1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -5;
+}
+.hero-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 25px;
+}
+
+.hero-button button {
+  width: 400px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  background-color: goldenrod;
+  position: relative;
+  bottom: -150px;
+  /* margin-top: 10rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.hero-button button:active {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
