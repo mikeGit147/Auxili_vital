@@ -1,8 +1,23 @@
 .navbar .icon{
     display: none;
 }
+.hero-container h1{
+    height: auto;
+    margin-top: 50px;
+    font-size: 8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+    transition: 1s ease-in-out;
+}
+@media screen and (max-width: 1400px) {
+    .hero-container h1{
+        font-size: 6rem;
 
-@media screen and (max-width: 1000px) {
+   }
+}
+@media screen and (max-width: 1200px) {
     .navbar-right {
         display: none;
     }    
@@ -10,10 +25,22 @@
         float: right;
         display: block;
     }
-    .hero-container .title h1{
-         font-size: 6rem;
+    .hero-container h1{
+         font-size: 3rem;
  
     }
+}
+@media screen and (max-width: 900px) {
+    .hero-container h1{
+        font-size: 3rem;
+
+   }
+}
+@media screen and (max-width: 700px) {
+    .hero-container h1{
+        font-size: 2rem;
+
+   }
 }
 
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
@@ -29,8 +56,8 @@
       display: block;
       text-align: left;
     }
-    .hero-container .title h1{
-         font-size: 4rem;
+    .hero-container  h1{
+            font-size: 2rem;
     }
 }
 div.navbar{
@@ -93,16 +120,7 @@ div.navbar{
     padding: 25px;
 }
 
-.hero-container .title h1{
-    height: auto;
-    margin-top: 50px;
-    font-size: 8rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-align: center;
-    text-shadow: 0px 0px 10px rgba(0,0,0,0.8);
-    transition: 1s ease-in-out;
-}
+
 .hero-button button{
     width: 400px;
     height: 50px;
